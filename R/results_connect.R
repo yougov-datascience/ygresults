@@ -1,4 +1,3 @@
-
 #' Connect to precinct results database
 #'
 #' \code{host, port, user} and \code{pass} can be passed in as \code{options("results_*")}

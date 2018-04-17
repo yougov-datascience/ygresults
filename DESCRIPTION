@@ -1,11 +1,12 @@
 Package: ygresults
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Convenience functions to access precinct results in a postgres database.
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Nick Pelikan
+Maintainer: Nick Pelikan <nick.pelikan@yougov.com>
+Description: Hi
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: Proprietary AF
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
