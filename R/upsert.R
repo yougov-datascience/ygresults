@@ -8,7 +8,7 @@
 #' @importFrom stringi stri_rand_strings
 #' @importFrom dplyr copy_to
 #' @importFrom glue glue
-#' @importFrom dbi dbSendQuery
+#' @importFrom DBI dbSendQuery
 #' @export
 upsert <- function(df, db, target_table){
     ## TODO: PUT SOME TYPE SAFETY HERE

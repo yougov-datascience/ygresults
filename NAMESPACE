@@ -2,7 +2,7 @@
 
 export(results_connect)
 export(upsert)
-importFrom(dbi,dbSendQuery)
+importFrom(DBI,dbSendQuery)
 importFrom(dplyr,copy_to)
 importFrom(dplyr,src_postgres)
 importFrom(glue,glue)
