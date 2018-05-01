@@ -4,8 +4,8 @@ Title: Convenience functions to access precinct results in a postgres database.
 Version: 0.1.0
 Author: Nick Pelikan
 Maintainer: Nick Pelikan <nick.pelikan@yougov.com>
-Description: Hi
-    Use four spaces when indenting paragraphs within the Description.
+Description: 
+    Hi
 License: Proprietary AF
 Encoding: UTF-8
 LazyData: true

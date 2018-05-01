@@ -19,10 +19,9 @@ upsert <- function(df, db, target_table){
 
     ## Maybe make conflict columns a parameter?
     q <- "BEGIN;
-          LOCK TABLE {target_table};
           INSERT INTO {target_table}({tbvars})
           (SELECT {tbvars} FROM {tbhsh})
-          ON CONFLICT (state, precinct, county, office, district, candidate, party)
+          ON CONFLICT (state, county, precinct, office, district, candidate, party)
           DO UPDATE SET votes = excluded.votes;
           COMMIT;"
 
