@@ -1,24 +1,23 @@
-#' Connect to precinct results database
-#'
-#' \code{host, port, user} and \code{pass} can be passed in as \code{options("results_*")}
-#'
+#' Connects to results database
 #' @param dbname database name
-#' @param host hostname
-#' @param port port
-#' @param user username
-#' @param pass password
-#'
-#' @return a database connection object
-#' @export
+#' @param host postgresql host. defaults to \code{getOption("results_host")}
+#' @param port port \code{getOption("results_port")}
+#' @param username username \code{getOption("results_user")}
+#' @param password password \code{getOption("results_pass")}
 #'
 #' @importFrom dplyr src_postgres
-results_connect <- function(dbname,
+#' @export
+results_connect <- function(dbname = "precinct_results",
                             host = getOption("results_host", NA),
                             port = getOption("results_port", NA),
-                            user = getOption("results_user", NA),
-                            pass = getOption("results_pass", NA)) {
-    dplyr::src_postgres(dbname = dbname, host = host,
-                        port = port, user = user, pass = pass)
+                            username = getOption("results_user", NA),
+                            password = getOption("results_pass", NA)){
+
+    missingLogin <- any(is.na(host), is.na(port), is.na(username), is.na(password))
+    if(missingLogin) stop("You must supply a valid host, port, username and password", call. = F)
+
+    dplyr::src_postgres(dbname = dbname, host = host, port = port,
+                 username = username, passwrod = password)
 }
 
 
