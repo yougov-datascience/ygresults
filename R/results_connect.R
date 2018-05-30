@@ -17,7 +17,7 @@ results_connect <- function(dbname = "precinct_results",
     if(missingLogin) stop("You must supply a valid host, port, username and password", call. = F)
 
     dplyr::src_postgres(dbname = dbname, host = host, port = port,
-                 username = username, passwrod = password)
+                 user = username, password = password)
 }
 
 

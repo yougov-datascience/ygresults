@@ -37,7 +37,7 @@ results_schema <- function(df){
     if (any(stringr::str_detect(df$state, "\\D"))) stop("Non-numeric characters detected in
                                                         `state`. Be certain your `state` column
                                                         is a valid FIPS code",
-                                               call. = F)
+                                                        call. = F)
 
     ## county == fips code?
     if (!all(nchar(df$county) == 3)) stop("The `county` column must be 3 characters long. Please
@@ -45,7 +45,7 @@ results_schema <- function(df){
     if (any(stringr::str_detect(df$county, "\\D"))) stop("Non-numeric characters detected in
                                                          `county`. Be certain your `county` column
                                                          is a valid FIPS code",
-                                                call. = F)
+                                                         call. = F)
 
     ## office vector supported?
     office_vals <- c("US Senate", "US House", "Governor", "Lieutenant Governor")
