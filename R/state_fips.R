@@ -17,6 +17,7 @@ state.postal.codes <- c("AL", "AK", NA, "AZ", "AR", "CA", NA, "CO", "CT", "DE", 
 #'
 #' @return a numeric or character vector
 #' @export
+#' @importFrom stats na.omit
 state_fips <- function (index) {
     if(!is.numeric(index) & !is.character(index)) stop("Index is not numeric or character. Please supply a numeric or character vector", call. = FALSE)
     if (is.numeric(index)) {
