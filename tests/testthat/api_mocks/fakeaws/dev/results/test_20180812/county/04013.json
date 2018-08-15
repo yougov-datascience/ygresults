@@ -1,0 +1,4292 @@
+[
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 581
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 831
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "f1df8168c07a8ae0750ddbbfe1f4ff1b",
+        "name": "0479 PALO VERDE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 423
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 501
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "88ce23e5c744db9dd23dd3a7cbd4033f",
+        "name": "0176 DESERT EDGE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 544
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 610
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "e5b4920af76d8bfd07178bd95576ac94",
+        "name": "0706 WAHALLA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 464
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 9
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 590
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "9bb0bd54f0cf2b2654871391389a9633",
+        "name": "0644 SUNCLIFF",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 973
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 645
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "779a07875ee87fa5c45da84d0945baca",
+        "name": "0741 WOLF RUN",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 354
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 350
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "4db6604c185a2e5615db9d36feac6433",
+        "name": "0538 RIO PASEO",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 301
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 457
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "3755d2d88ce7cf7d92984f6271156555",
+        "name": "0466 OSUNA PARK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 128
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 307
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "4b2ac5ece1fb9b98bed5b799b1213ed6",
+        "name": "0658 SURPRISE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 503
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 441
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "67583e0fb478239496e74fa55925c68c",
+        "name": "0333 JOHN CABOT",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 69
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 89
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "7e70b1c4f8f6ee0d8566b17134112141",
+        "name": "0567 SAN MIGUEL",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 276
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 222
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "8fa3be6794d2e109dc68abdeda04493c",
+        "name": "0015 ALTADENA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 259
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 323
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "b0f66cb7d46c00f3f2c3718bafb328dd",
+        "name": "0186 DESERT VISTA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 776
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 9
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 626
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "ca25c07c18d6f187870907b8b482c5fd",
+        "name": "0303 HILLCREST",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 279
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 353
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "0a007d30a385a8d76f564d57d9b47a05",
+        "name": "0259 GLENCROFT",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 203
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 239
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "e593dbfa5def55f96064df1f6157f7a3",
+        "name": "0107 CHRISTY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 230
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 294
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "a2167eddc7f18c2028c69adc8f652de7",
+        "name": "0009 AIRLINE CANAL",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 533
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 438
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "77d63a16b742dd063b820ce9405fa06b",
+        "name": "0059 BREWER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 245
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 279
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "db01c679ef2700f83ebe5b02dec638b4",
+        "name": "0388 LUKE FIELD",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 515
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 540
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "80f37ab37a27eb07e9609a1e554ebdb2",
+        "name": "0690 VARNEY PARK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 84
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 117
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "3ca5d9ee41ab5543d8630e80566f89ce",
+        "name": "0146 COUNTRY MEADOWS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 833
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 563
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "f410bbd290efc6683a493f877fe4d1ef",
+        "name": "0748 ZUNI HILLS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 465
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 393
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "50b3298239941435fd40209e27561f78",
+        "name": "0636 SUMMERSTAR",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 194
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 312
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "c9b1a9ef22d58db00b797775cebafcfb",
+        "name": "0497 PEORIA HEIGHTS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 737
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 579
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "912d6a3f55db1e0a833a79ebfa288528",
+        "name": "0325 INDIAN WELLS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 276
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 284
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "913e96914ba55389952e6ffb8d768a9b",
+        "name": "0560 SAHUARO RANCH",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 277
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 312
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "4bfa0fa7f00a668cd7a2551b95741e1d",
+        "name": "0628 ST MORITZ",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 975
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 13
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 767
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "8f33dbe4249bc6b9cc116371ef5a05af",
+        "name": "0716 WESTBROOK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1899
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 6
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 1552
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "68b79c071ef6eb122f86cc1d38f843d6",
+        "name": "0269 GRAND",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 787
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 733
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "f697f93d545f710d541ed9393053f8d7",
+        "name": "0384 LOS GATOS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 160
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 144
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "667413fa5c86bf83bd0753cedcf43c83",
+        "name": "0145 COUNTRY GABLES",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 823
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 730
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "ecb67189b163ec8faed1d985d419b4fc",
+        "name": "0244 FRONTIER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 193
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 243
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "339f651c8bcc2813875ffe685f500a7a",
+        "name": "0645 SUNDANCE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 565
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 459
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "b68520317c5bbfa77c0723a6e95d894c",
+        "name": "0621 SPANISH GARDEN",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 362
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 425
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "94ac7d22e743c52d853df1777d059fc7",
+        "name": "0404 MARLEY PARK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 251
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 244
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "d74c72548f8a0230d6a522f6f3a51e2e",
+        "name": "0544 RIVIERA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 439
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 294
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "f4fc79db5dfa8eae0e2cbc55fa03c087",
+        "name": "0049 BISCUIT FLAT",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 388
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 316
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "a7e2e939aed17c303e4e658d749003a8",
+        "name": "0006 AGUA FRIA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 780
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 705
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "3200dcc504f990dea5f45f65f6d75a3a",
+        "name": "0677 TRAMONTO",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1303
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 8
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 1255
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "4d2156b2e78f4ae734fd53dde14d508c",
+        "name": "0730 WIGWAM",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1125
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 7
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 870
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "5cc8a531dbb1965d7c87f3551e256617",
+        "name": "0423 MIMOSA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 501
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 347
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "ac9a11ec8e2462c78a06b63425681652",
+        "name": "0603 SKY HAWK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 706
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 7
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 745
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "87c2bc5cf6b555730d1217dd602ca7a8",
+        "name": "0386 LUDDEN",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 662
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 691
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "0fe3be4f51f6a9588697ea09796e1bbc",
+        "name": "0536 RIMROCK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 205
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 255
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "943308d4135b5d0a578945ab5228a6c6",
+        "name": "0072 CALAVAR",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 348
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 404
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "fe2bb432ea319b851ab934be503a52ff",
+        "name": "0030 ARROWHEAD RANCH",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 450
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 298
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "e41ffad2fd06110fe0ea0943f6d8dbb5",
+        "name": "0130 CONQUISTADOR",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 810
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 452
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "7820e77abd98575d91d22bdf6edb8728",
+        "name": "0182 DESERT OASIS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 407
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 366
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "fd93b2b52ff182ccb50123bbebaf8ef6",
+        "name": "0579 SARIVAL",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 783
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 796
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "250d4b4af08ce0155a26306ca1779bb6",
+        "name": "0177 DESERT HARBOR",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 761
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 629
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "739d57386de559305d21e0bb719d86bf",
+        "name": "0219 EMERALD",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 636
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 535
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "1d5617e3f8e7a074563f8ad18ffca637",
+        "name": "0435 MONTOYA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 607
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 6
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 749
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "efc3060a3d590505687c071956f15d18",
+        "name": "0020 ANGELA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 647
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 655
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "517bdf837d694780f3a6477dcd3b3121",
+        "name": "0487 PARKRIDGE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 592
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 469
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "f75a05349d6c559e343dad4087b6f566",
+        "name": "0285 HAPPY VALLEY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 308
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 338
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "8bb9aab93a77f760a1f26ea9799ae761",
+        "name": "0510 PIONEER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1359
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 8
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 1307
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "3c87395eb5274854ec45e69e5a886457",
+        "name": "0521 PYRAMID PEAK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 587
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 602
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "2da3f18592ea618a616c9f75d5262b01",
+        "name": "0637 SUN AIRE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 441
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 316
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "77629949a3add73511065ec437ae499c",
+        "name": "0330 JASMINE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1010
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 908
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "dc3571a32c8f80ba909ae92ded6aa1e0",
+        "name": "0043 BEARDSLEY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 608
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 504
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "ac953734ece4ad8bd208c3994dfb6bd4",
+        "name": "0737 WILLOW CANYON",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 932
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 734
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "2e142b42d3e142e15464cab641c68b0a",
+        "name": "0051 BLACK GOLD",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1155
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 6
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 826
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "4ff3f9df4011d0d55d6a42485aabb886",
+        "name": "0557 SADDLE RIDGE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 227
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 266
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "e271e8cc283432edfb6115a1def547fb",
+        "name": "0162 DAISY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 476
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 532
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "2fd2ca3cd33ba137a75b38ac9646f841",
+        "name": "0334 JULIE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 573
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 523
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "20bbc1fb8f3aa08cd4aaf2572c7caad0",
+        "name": "0578 SARATOGA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 344
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 7
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 361
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "229c3fd98feeb027dc45e40f25e7fe68",
+        "name": "0661 SWEETWATER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 588
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 820
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "4cb67a4c70f57f52b11b27207f2de8dc",
+        "name": "0069 BUTLER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 139
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 135
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "cc7329fd95fd5992d1b24fd7a202958e",
+        "name": "0483 PARADISE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 874
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 557
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "5e1e43bdfbdbd5519d09f7ffb3f33f29",
+        "name": "0352 LAKE PLEASANT",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 370
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 449
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "8c0702253776e1b0c05672f104e58966",
+        "name": "0251 GEMINI",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 519
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 530
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "b3c87b3b646826726148d16b1b719c2b",
+        "name": "0089 CAROL ANN",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 321
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 392
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "002f19bda3bfc805ff5e9f9741d854c1",
+        "name": "0090 CARON",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 852
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 571
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "489b9100fd792f793464519523c135e1",
+        "name": "0676 TRADITIONS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 538
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 482
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "9175c2ec730d5a06370019eb0734e0d3",
+        "name": "0395 MAJESTY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 410
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 444
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "91bcb374dff4802e31be1c2a215c36cd",
+        "name": "0703 WACKER PARK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 471
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 400
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "82d6674a1d1cf05c5fec48455d39ec92",
+        "name": "0292 HASTINGS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 381
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 345
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "ea7cf3704f6c72eb4ad67fd3a5ae5b0b",
+        "name": "0745 YOUNGTOWN",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1134
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 986
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "d4754e1f3d8fd915d570760cdf201a95",
+        "name": "0270 GRANITE FALLS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 722
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 730
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "a865431610d4eb7ad55e23ecb164cf19",
+        "name": "0555 ROYAL OAK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 435
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 418
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "d92317c549bb6a9da8b12b84f6ce55cb",
+        "name": "0731 WIGWAM CREEK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 209
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 295
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "6a0f4a55e5e611dd74c3386a65202022",
+        "name": "0656 SUNUP",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 789
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 10
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 650
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "9676da6e8247a7cc6c121069a3729bd6",
+        "name": "0638 SUN CITY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 991
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 10
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 736
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "dcfab54bf581ed4f627e741950c7eaaa",
+        "name": "0590 SHASTA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1203
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 9
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 1026
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "eb9d4d07bd5f9c69202c23b7f419703c",
+        "name": "0714 WEST WING",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 372
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 7
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 322
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "2b44d9f0458eb0de0a472c012324ac1d",
+        "name": "0629 STARDUST",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 352
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 347
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "79b1f5be8fcc0287c2adc39f26cb4c4e",
+        "name": "0500 PHELPS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 616
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 6
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 465
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "151af68df5f139e148877a8fc7c35435",
+        "name": "0250 GAVILAN PEAK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 196
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 369
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "77554839e11e19ce574fc233a45e77f6",
+        "name": "0610 SOLEDAD",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 370
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 258
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "3b6a261bd492da6a37b725e91cfc3dd6",
+        "name": "0054 BLUE SKY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 478
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 337
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "5eff2a70cad45f7dfd4aa31ce6ca138b",
+        "name": "0353 LAKEVIEW",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 222
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 290
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "146ae9c1e32ede8a56b7d41ca5afb200",
+        "name": "0371 LITCHFIELD",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 399
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 304
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "9485e6faeb67387d15885cc31c3dcb91",
+        "name": "0347 KODIAK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1956
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 36
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 1269
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "a07eb10afc4844a7cb98c0e35020e26f",
+        "name": "0206 DUSTY TRAIL",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 303
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 466
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "c3f6793907e0ea2c1623a4c1e898dee0",
+        "name": "0216 EL MIRAGE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 643
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 466
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "aa58983adb16b136bfe9fcb2764eee7c",
+        "name": "0013 ALPACA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 516
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 364
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "d41588566a45a21439a73c9395fbd370",
+        "name": "0277 GREYSTONE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 246
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 309
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "6e34ef6ade80f905d3ffd56b78baea81",
+        "name": "0734 WILDFLOWER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 387
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 313
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "5a4b4d7b0eeca9e0bbf8b32bb4e91eb2",
+        "name": "0023 APACHE PARK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 192
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 240
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "1d9c37660c10da9566d5087f10d4916c",
+        "name": "0133 COPPERWOOD",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 400
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 413
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "3babe96d3ea3022a40355c0a92855f7c",
+        "name": "0472 PALM VALLEY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 903
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 11
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 862
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "5046d9edd4cfe7bbfc1fdcbce142706d",
+        "name": "0713 WEST POINT",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 406
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 379
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "21daa12dff9c579091af7b9367178068",
+        "name": "0033 ATHENS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 572
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 459
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "aae7ff46fcbef83a595c5b3bfcb205ec",
+        "name": "0143 COTTON LANE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 594
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 8
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 457
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "79700852b6c490aeef5788cae5b2d873",
+        "name": "0002 ACOMA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 537
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 6
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 393
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "ca86ca04991987bc15074edf9a67e43f",
+        "name": "0273 GREENBRIAR",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 427
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 9
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 490
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "0862cdbd3365ec861cfd669d6f84c481",
+        "name": "0526 RANCHO MIRAGE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 338
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 313
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "758fe1b8660f75bd458dc245b66f886b",
+        "name": "0156 CROSBY",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 101
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 62
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "7ec4c87424363042e14d354b2448329c",
+        "name": "0014 ALSUP",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 887
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 461
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "e7112f1b051722e37aa6d0efac728701",
+        "name": "0168 DEADMAN WASH",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1386
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 899
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "1fa1161649ce1f19822dbbfb102a6309",
+        "name": "0704 WADDELL",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 711
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 7
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 781
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "671c29b1a398d277f47f3013f8eb44e8",
+        "name": "0533 REEMS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 579
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 498
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "359b9a03492c87c4ed8e07b8a233e09e",
+        "name": "0057 BONANZA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 414
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 8
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 298
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "23bab13572773c55c5059108d55fe4bd",
+        "name": "0153 CRESCENT",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1049
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 995
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "c0a647f1a5d4f0211c8d62ce9aaee97d",
+        "name": "0183 DESERT SAGE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 900
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 16
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 679
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "5279d941c06f9d4f5b22672d50f29cbb",
+        "name": "0420 MESQUITE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1036
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 793
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "1628b73e82c952b860c3759a08c31be6",
+        "name": "0077 CAMEO",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 228
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 258
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "e56563d8fec84bc28e1186e5682a7922",
+        "name": "0643 SUNBURST",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 600
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 460
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "68ffc5686a96da4ca057fe035421d19b",
+        "name": "0141 CORRINE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 389
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 570
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "a8b0d49c4cca7602a0e2a37fc156cd3d",
+        "name": "0702 VOGEL",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 354
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 259
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "532815a8498b640b076ed4aa00bcb4c5",
+        "name": "0626 ST CHRISTOPHER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 639
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 413
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "31cd032c35d03605b9a98ebbd61fe8af",
+        "name": "0149 COYOTE HILLS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 2524
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 12
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 1975
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "d3a9f1c70df6303754c3c951e9b16de8",
+        "name": "0490 PEBBLE CREEK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 462
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 389
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "445d5851f9b887e1f2e7b2cbb004a5d9",
+        "name": "0370 LINDNER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 461
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 468
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "1fdff091a5ca539ef1c065f6159bc687",
+        "name": "0125 COMET",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 731
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 7
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 421
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "50792f7e0e1014c47ec32bddbcf8a261",
+        "name": "0180 DESERT HILLS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 320
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 397
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "3ff627d056f703e97c74049c5f8c6a9b",
+        "name": "0718 WESTGREEN PARK",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 711
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 505
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "570e0fda46471aab2c4fd0a5e77ef167",
+        "name": "0342 KENLY FARMS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 140
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 196
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "47e845087b974a94752cf84d743c7985",
+        "name": "0267 GOODYEAR",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 250
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 336
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "27bc17ff085a3a9eecbf8324d3475dfe",
+        "name": "0604 SKY VIEW",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 834
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 4
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 716
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "0a31dc1a110b0bc2cc87a6da4b2e01f5",
+        "name": "0659 SURPRISE FARMS",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 236
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 269
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "82b010bec2e302595730788aee743ae9",
+        "name": "0044 BERYL",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 179
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 178
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "1496f8498a55058c0d71ba1bb3b59bb1",
+        "name": "0209 DYSART",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 268
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 296
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "0cb0a6bd8a34fecbc214a1b11901e863",
+        "name": "0597 SIERRA VERDE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1445
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 5
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 1270
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "c8798eca463d99c2fd3399df702c21ee",
+        "name": "0701 VISTANCIA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 358
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 360
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "4c8d923fb5240c8d4287ac69efe9ba42",
+        "name": "0150 COYOTE LAKES",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 169
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 1
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 193
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "41d980e264df3002decbd119e31776c1",
+        "name": "0513 POINSETTIA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 722
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 586
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "a7d68430fcff0b74c9fa9502203e7dd6",
+        "name": "0458 OLIVE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 1679
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 12
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 1300
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "59dbeb3bab3c4c0c23863b7848eb4b57",
+        "name": "0351 LA SOLANA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 526
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 580
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "f5e0f9d110357e71682b73b3b54c4469",
+        "name": "0151 CREEDANCE",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 910
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 2
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 478
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "de74b2acb0d4825c81a1c18db49e2cf3",
+        "name": "0444 NEW RIVER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 435
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 3
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 539
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "8b6c1ec7cc952a2f8596bad4f8abff1a",
+        "name": "0185 DESERT THUNDER",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 287
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 7
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 261
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "15306ffc2e2e5d3a6fd976555c7b33d6",
+        "name": "0161 DAHLIA",
+        "state": 4
+    },
+    {
+        "office": {
+            "US House": {
+                "Lesko": {
+                    "votes": {
+                        "All": 296
+                    },
+                    "party": "Rep"
+                },
+                "Write-in": {
+                    "votes": {
+                        "All": 0
+                    },
+                    "party": "Oth"
+                },
+                "Tipirneni": {
+                    "votes": {
+                        "All": 158
+                    },
+                    "party": "Dem"
+                }
+            }
+        },
+        "cd": 8,
+        "county": 13,
+        "updatetime": 1534199762,
+        "id": "48ce2360020177dd038b7baa9e3d3899",
+        "name": "0284 HAPPY TRAILS",
+        "state": 4
+    }
+]
