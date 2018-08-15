@@ -1,6 +1,7 @@
 # ygresults
 
 [![Build Status](https://travis-ci.com/yougov-datascience/ygresults.svg?token=nrN8ZtNwgknk3Sx8oNap&branch=master)](https://travis-ci.com/yougov-datascience/ygresults)
+ [![Coverage status](https://codecov.io/gh/yougov-datascience/ygresults/branch/master/graph/badge.svg)](https://codecov.io/github/yougov-datascience/ygresults?branch=master)
 
 ## Functions to download precinct results from YG API
 

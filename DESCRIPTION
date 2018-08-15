@@ -18,4 +18,5 @@ Imports:
     tibble,
     dplyr
 Suggests: 
-    httptest
+    httptest,
+    covr
