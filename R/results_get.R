@@ -1,8 +1,16 @@
-
-#' @importFrom httr GET content add_headers
+#' Retrieves election information from external API
+#'
+#' @param elec_code Election code, as a string
+#'
+#' @param state State as either a zero-padded fips code ("04") or a postal code ("AZ")
+#' @param county County as full 5-digit fips code ("01001")
+#' @param cd CD as either fips + district number ("0408") or postal code + district number ("AZ08")
+#'
 #' @importFrom glue glue
 #' @importFrom purrr pmap map flatten
 #' @importFrom stringr str_sub
+#' @importFrom httr GET content add_headers
+#' @export
 results_get <- function(elec_code,
                         state = NULL,
                         county = NULL,
@@ -30,7 +38,7 @@ results_get <- function(elec_code,
         if (!is.character(state)) stop("`state` must be a character vector", call. = F)
         if(any(nchar(state) != 2)) stop("`state` must be 2-character string, please zero-pad if needed",
                                         call. = F)
-        qlist['state'] <- state
+        qlist['state'] <- postal_replace_fips(state)
     }
 
     if (!is.null(county)){
@@ -44,7 +52,7 @@ results_get <- function(elec_code,
         if (!is.character(cd)) stop("`cd` must be a character vector", call. = F)
         if(any(nchar(cd) != 4)) stop("`cd` must be 4-character string, please zero-pad if needed",
                                          call. = F)
-        qlist['cd'] <- cd
+        qlist['cd'] <- postal_replace_fips(cd)
     }
 
     ## throws warning if duplicated state + cd or state+county calls exist
