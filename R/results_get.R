@@ -1,0 +1,69 @@
+
+
+
+#' @importFrom httr GET content add_headers
+#' @importFrom glue glue
+#' @importFrom purrr pmap map
+results_get <- function(elec_code,
+                        state = NULL,
+                        county = NULL,
+                        cd = NULL){
+
+    api_key <- getOption("results_api_key", NA)
+    if (is.na(api_key)){
+        stop("API key not found. Please save it in options as `results_api_key`", call. = F)
+    }
+
+    api_base_url <- getOption("results_api_url", NA)
+    if (is.na(api_base_url)){
+        stop("API url not found. Please save it in options as `results_api_url`", call. = F)
+    }
+
+    get_base <- paste0(api_base_url, "{elec_code}/{qtype}/{qitem}")
+
+    if (all(is.null(c(state, county, cd)))){
+        stop("One of `state`, `county` or `cd` must be non-null")
+    }
+
+    qlist <- list()
+
+    if (!is.null(state)){
+        if (!is.character(state)) stop("`state` must be a character vector", call. = F)
+        if(any(nchar(state)) != 2) stop("`state` must be 2-character string, please zero-pad if needed",
+                                        call. = F)
+        qlist['state'] <- state
+    }
+
+    if (!is.null(county)){
+        if (!is.character(county)) stop("`county` must be a character vector", call. = F)
+        if(any(nchar(county)) != 5) stop("`county` must be 5-character string, please zero-pad if needed",
+                                        call. = F)
+        qlist['county'] <- county
+    }
+
+    if (!is.null(cd)){
+        if (!is.character(cd)) stop("`cd` must be a character vector", call. = F)
+        if(any(nchar(cd)) != 4) stop("`cd` must be 4-character string, please zero-pad if needed",
+                                         call. = F)
+        qlist['cd'] <- cd
+    }
+
+    query_results <- function(qtype, qitem){
+        purrr::map(qitem, function(qitem){
+            resp <- httr::GET(glue::glue(get_base),
+                              httr::add_headers(`x-api-key` = api_key))
+
+            if (resp$status_code != 200){
+                stop(paste0("HTTP error ", resp$status_code), call. = F)
+            } else {
+                httr::content(resp)
+            }
+        })
+    }
+
+    resp_list <- purrr::pmap2(list(qtype = names(qlist),
+                                   qitem = qlist),
+                              query_results)
+
+    resp <- httr::GET()
+}
