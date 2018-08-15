@@ -1,9 +1,8 @@
 
-
-
 #' @importFrom httr GET content add_headers
 #' @importFrom glue glue
-#' @importFrom purrr pmap map
+#' @importFrom purrr pmap map flatten
+#' @importFrom stringr str_
 results_get <- function(elec_code,
                         state = NULL,
                         county = NULL,
@@ -48,8 +47,24 @@ results_get <- function(elec_code,
         qlist['cd'] <- cd
     }
 
+    ## throws warning if duplicated state + cd or state+county calls exist
+    if ('state' %in% names(qlist) & any(c('county', 'cd') %in% names(qlist))){
+        cd_cty_states <- c()
+        if ('county' %in% names(qlist)){
+            cd_cty_states <- c(cd_cty_states, stringr::str_sub(qlist[['county']], end=2))
+        }
+        if ('cd' %in% names(qlist)){
+            cd_cty_states <- c(cd_cty_states, stringr::str_sub(qlist[['cd']], end=2))
+        }
+
+        if (any(qlist[['state']] %in% cd_cty_states)){
+            warning("You have submitted arguments to `cd` and `county` that overlap with your selection in `state`. This is unnecessary and will substantially reduce performance.",
+                    call. = F)
+        }
+    }
+
     query_results <- function(qtype, qitem){
-        purrr::map(qitem, function(qitem){
+        purrr::flatten(purrr::map(qitem, function(qitem){
             resp <- httr::GET(glue::glue(get_base),
                               httr::add_headers(`x-api-key` = api_key))
 
@@ -58,12 +73,14 @@ results_get <- function(elec_code,
             } else {
                 httr::content(resp)
             }
-        })
+        }))
     }
 
-    resp_list <- purrr::pmap2(list(qtype = names(qlist),
+    resp_list <- purrr::pmap(list(qtype = names(qlist),
                                    qitem = qlist),
                               query_results)
 
-    resp <- httr::GET()
+    raw_rl <- purrr::flatten(resp_list)
+
+    unpack_results(raw_rl)
 }

@@ -26,16 +26,22 @@ flatten_record <- function(result){
     flat_votes <- purrr::pmap_dfr(list(oname = names(resl),
                                        oresults = resl),
                                   flatten_offices)
+
     for (i in c("cd", "county", "name", "state", "updatetime")){
-        flat_votes[[i]] <- result[[i]]
+        flat_votes[[ifelse(i == "name", "precinct", i)]] <- result[[i]]
     }
+    flat_votes
 }
 
 
 # changes results from JSON schema to df for the R types
-#' @importFrom purrr map map_chr
+# also drops duplicates
+#' @importFrom purrr map_dfr map_chr
 unpack_results <- function(res_list){
     id_ls <- purrr::map_chr(res_list, "id")
 
-    flatres <- purrr::map
+    ## drops all dupes
+    res_list <- res_list[!duplicated(id_ls)]
+
+    purrr::map_dfr(res_list, flatten_record)
 }
