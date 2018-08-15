@@ -1,6 +1,6 @@
 Package: ygresults
 Type: Package
-Title: Convenience functions to access precinct results in a postgres database.
+Title: Convenience functions to access precinct results in a REST API.
 Version: 0.1.0
 Author: Nick Pelikan
 Maintainer: Nick Pelikan <nick.pelikan@yougov.com>
