@@ -1,8 +1,14 @@
 
-#' @importFrom httr PUT
+#' Uploads results to API
+#' @param df
+#'
+#' @param election_code
+#'
 #' @importFrom purrr map
 #' @importFrom glue glue
+#' @importFrom httr PUT
 results_upload <- function(df, election_code){
+    df <- upload_schema(df)
     api_key <- getOption("results_api_key", NA)
     if (is.na(api_key)){
         stop("API key not found. Please save it in options as `results_api_key`", call. = F)
