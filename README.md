@@ -1,10 +1,16 @@
 # ygresults
 
 [![Build Status](https://travis-ci.com/yougov-datascience/ygresults.svg?token=nrN8ZtNwgknk3Sx8oNap&branch=master)](https://travis-ci.com/yougov-datascience/ygresults)
-[![AppVeyor Build Status](https://ci.appveyor.com/yougov-datascience/ygresults)](https://ci.appveyor.com/api/projects/status/github//yougov-datascience/ygresults/?branch=master&svg=true)
+[![Build status](https://ci.appveyor.com/api/projects/status/8g0kl75hl07s3lpk?svg=true)](https://ci.appveyor.com/project/npelikan/ygresults-db86a)
  [![Coverage status](https://codecov.io/gh/yougov-datascience/ygresults/branch/master/graph/badge.svg)](https://codecov.io/github/yougov-datascience/ygresults?branch=master)
 
 ## Functions to download precinct results from YG API
+
+### Installation
+```{r}
+devtools::install_github('yougov-datascience/ygresults')
+```
+
 
 ### Required options:
 ```{r}
