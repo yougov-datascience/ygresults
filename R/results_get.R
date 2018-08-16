@@ -1,6 +1,6 @@
 #' Retrieves election information from external API
 #'
-#' @param elec_code Election code, as a string
+#' @param election_code Election code, as a string
 #'
 #' @param state State as either a zero-padded fips code ("04") or a postal code ("AZ")
 #' @param county County as full 5-digit fips code ("01001")
@@ -11,7 +11,7 @@
 #' @importFrom stringr str_sub
 #' @importFrom httr GET content add_headers
 #' @export
-results_get <- function(elec_code,
+results_get <- function(election_code,
                         state = NULL,
                         county = NULL,
                         cd = NULL){
@@ -26,7 +26,7 @@ results_get <- function(elec_code,
         stop("API url not found. Please save it in options as `results_api_url`", call. = F)
     }
 
-    get_base <- paste0(api_base_url, "{elec_code}/{qtype}/{qitem}")
+    get_base <- paste0(api_base_url, "{election_code}/{qtype}/{qitem}")
 
     if (all(is.null(c(state, county, cd)))){
         stop("One of `state`, `county` or `cd` must be non-null")

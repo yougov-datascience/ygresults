@@ -4,10 +4,10 @@
 \alias{results_get}
 \title{Retrieves election information from external API}
 \usage{
-results_get(elec_code, state = NULL, county = NULL, cd = NULL)
+results_get(election_code, state = NULL, county = NULL, cd = NULL)
 }
 \arguments{
-\item{elec_code}{Election code, as a string}
+\item{election_code}{Election code, as a string}
 
 \item{state}{State as either a zero-padded fips code ("04") or a postal code ("AZ")}
 
