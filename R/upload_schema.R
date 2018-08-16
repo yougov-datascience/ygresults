@@ -24,8 +24,15 @@ upload_schema <- function(df){
                     "` found in `df`. Please remove."), call. = F)
     }
 
+    ## numeric cols
+    for (cn in c("state", "county", "district", "votes")){
+        if(!is.numeric(df[[cn]])){
+            stop(paste0("The `", cn, "` column must be a numeric vector!"), call. = F)
+        }
+    }
+
     ## character cols
-    for (cn in c("state", "county", "precinct", "office", "candidate", "party")){
+    for (cn in c("precinct", "office", "candidate", "party", "votetype")){
         if(!is.character(df[[cn]])){
             stop(paste0("The `", cn, "` column must be a character vector!"), call. = F)
         }
