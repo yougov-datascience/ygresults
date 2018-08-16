@@ -1,13 +1,13 @@
 
 #' Uploads results to API
-#' @param df
+#' @param df data.frame with schema columns (see vignette for details)
 #'
-#' @param election_code
+#' @param election_code string election code denominator
 #'
 #' @importFrom purrr map
 #' @importFrom glue glue
 #' @importFrom httr PUT
-#' @importFrom jsonlite
+#' @export
 results_upload <- function(df, election_code){
     df <- upload_schema(df)
     api_key <- getOption("results_api_key", NA)
@@ -28,7 +28,6 @@ results_upload <- function(df, election_code){
 
     ## splits into precinct chunks of size 100
     pchunks <- split(formatted_pcts, ceiling(seq_along(formatted_pcts)/50))
-
 
     purrr::map(pchunks, function(chk){
         httr::PUT(put_base,

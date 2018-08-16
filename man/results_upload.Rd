@@ -7,9 +7,9 @@
 results_upload(df, election_code)
 }
 \arguments{
-\item{df}{}
+\item{df}{data.frame with schema columns (see vignette for details)}
 
-\item{election_code}{}
+\item{election_code}{string election code denominator}
 }
 \description{
 Uploads results to API
