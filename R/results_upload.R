@@ -7,6 +7,7 @@
 #' @importFrom purrr map
 #' @importFrom glue glue
 #' @importFrom httr PUT
+#' @importFrom jsonlite
 results_upload <- function(df, election_code){
     df <- upload_schema(df)
     api_key <- getOption("results_api_key", NA)
@@ -19,14 +20,19 @@ results_upload <- function(df, election_code){
         stop("API url not found. Please save it in options as `results_api_url`", call. = F)
     }
 
-    put_base <- paste0(api_base_url, "{election_code}/write")
+    put_base <- paste0(api_base_url, election_code, "/write")
 
     pct_ls <- split(df, paste0(df[['state']], df[['county']], df[['precinct']]))
 
-    payload <- list(
-        "precincts" = unname(purrr::map(pct_ls, format_pct))
-    )
+    formatted_pcts <- unname(purrr::map(pct_ls, format_pct))
 
-    httr::PUT(glue::glue(put_base), httr::add_headers(`x-api-key` = api_key),
-              body = payload, encode = "json")
+    ## splits into precinct chunks of size 100
+    pchunks <- split(formatted_pcts, ceiling(seq_along(formatted_pcts)/50))
+
+
+    purrr::map(pchunks, function(chk){
+        httr::PUT(put_base,
+                  httr::add_headers(`x-api-key` = api_key),
+                  body = list("precincts" = chk), encode = "json")
+    })
 }

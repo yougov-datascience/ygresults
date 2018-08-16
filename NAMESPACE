@@ -2,6 +2,7 @@
 
 export(results_get)
 export(state_fips)
+export(upload_schema)
 importFrom(glue,glue)
 importFrom(httr,GET)
 importFrom(httr,PUT)
