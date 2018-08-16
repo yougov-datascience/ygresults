@@ -6,6 +6,12 @@
 
 ## Functions to download precinct results from YG API
 
+### Installation
+```{r}
+devtools::install_github('yougov-datascience/ygresults')
+```
+
+
 ### Required options:
 ```{r}
 options(results_api_key = <your api key>,
