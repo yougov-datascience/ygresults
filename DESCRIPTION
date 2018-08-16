@@ -16,7 +16,9 @@ Imports:
     purrr,
     stringr,
     tibble,
-    dplyr
+    dplyr,
+    crul,
+    jsonlite
 Suggests: 
     httptest,
     covr
