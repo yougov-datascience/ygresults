@@ -5,7 +5,7 @@
 #' @export
 #'
 #' @importFrom stringr str_detect
-upload_schema <- function(df){
+results_schema <- function(df){
     ## typesafety time
     ## cols present?
     req_cols <- c("state", "county", "precinct", "office", "district", "candidate", "party",
