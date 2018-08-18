@@ -3,12 +3,13 @@
 #' @param df data.frame with schema columns (see vignette for details)
 #'
 #' @param election_code string election code denominator
+#' @param is_primary deactivates party -- candidate checking for primaries
 #'
 #' @importFrom purrr map
 #' @importFrom glue glue
 #' @importFrom httr PUT
 #' @export
-results_upload <- function(df, election_code){
+results_upload <- function(df, election_code, is_primary=FAlse){
     df <- results_schema(df)
     api_key <- getOption("results_api_key", NA)
     if (is.na(api_key)){
@@ -24,7 +25,7 @@ results_upload <- function(df, election_code){
 
     pct_ls <- split(df, paste0(df[['state']], df[['county']], df[['precinct']]))
 
-    formatted_pcts <- unname(purrr::map(pct_ls, format_pct))
+    formatted_pcts <- unname(purrr::map(pct_ls, format_pct, is_primary=is_primary))
 
     ## splits into precinct chunks of size 100
     pchunks <- split(formatted_pcts, ceiling(seq_along(formatted_pcts)/50))

@@ -1,7 +1,7 @@
 ## formats precincts into list format for JSON munge+upload
 #' @importFrom purrr map2
 #' @importFrom stats na.omit
-format_pct <- function(pct_df){
+format_pct <- function(pct_df, is_primary=FALSE){
 
     osplit <- split(pct_df, pct_df$office)
     olist <- purrr::map(osplit, function(off_df){
@@ -9,7 +9,7 @@ format_pct <- function(pct_df){
         csplit <- split(off_df, off_df$candidate)
         clist <- purrr::map(csplit, function(cand_df){
             pty <- unique(cand_df$party)
-            if (length(pty) > 1){
+            if (length(pty) > 1 & !is_primary){
                 stop("multiple parties submitted for the same candidate", call. = F)
             }
 

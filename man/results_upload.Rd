@@ -4,12 +4,14 @@
 \alias{results_upload}
 \title{Uploads results to API}
 \usage{
-results_upload(df, election_code)
+results_upload(df, election_code, is_primary = FAlse)
 }
 \arguments{
 \item{df}{data.frame with schema columns (see vignette for details)}
 
 \item{election_code}{string election code denominator}
+
+\item{is_primary}{deactivates party -- candidate checking for primaries}
 }
 \description{
 Uploads results to API
