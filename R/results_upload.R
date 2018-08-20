@@ -9,7 +9,7 @@
 #' @importFrom glue glue
 #' @importFrom httr PUT
 #' @export
-results_upload <- function(df, election_code, is_primary=FAlse){
+results_upload <- function(df, election_code, is_primary=FALSE){
     df <- results_schema(df)
     api_key <- getOption("results_api_key", NA)
     if (is.na(api_key)){

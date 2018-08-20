@@ -4,7 +4,7 @@
 \alias{results_upload}
 \title{Uploads results to API}
 \usage{
-results_upload(df, election_code, is_primary = FAlse)
+results_upload(df, election_code, is_primary = FALSE)
 }
 \arguments{
 \item{df}{data.frame with schema columns (see vignette for details)}
