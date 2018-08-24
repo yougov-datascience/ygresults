@@ -5,10 +5,8 @@ os:
   - linux
   - osx
 r:
-  - 3.3
   - oldrel
   - release
-  - devel
 sudo: false
 cache: packages
 
