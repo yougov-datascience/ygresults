@@ -5,7 +5,7 @@
 #' @param election_code string election code denominator
 #' @param is_primary deactivates party -- candidate checking for primaries
 #'
-#' @importFrom purrr map
+#' @importFrom purrr map map_lgl
 #' @importFrom glue glue
 #' @importFrom httr PUT
 #' @export
@@ -25,7 +25,27 @@ results_upload <- function(df, election_code, is_primary=FALSE){
 
     pct_ls <- split(df, paste0(df[['state']], df[['county']], df[['precinct']]))
 
-    formatted_pcts <- unname(purrr::map(pct_ls, format_pct, is_primary=is_primary))
+    multi_district <- purrr::map_lgl(pct_ls, ~length(unique(na.omit(.x[['district']])))>1)
+
+    formatted_pcts <- unname(purrr::map(pct_ls[!multi_district], format_pct, is_primary=is_primary))
+
+    if(sum(multi_district >1)){
+        multi_little <- map(pct_ls[multi_district], function(d){
+            d[d$district %in% min(d$district, na.rm = T) | is.na(d$district),]
+        })
+
+        multi_oth <- map(pct_ls[multi_district], function(d){
+            ot <- d[d$district %in% min(d$district, na.rm = T),]
+            ot$precinct <- paste0(ot$precinct, " District ", unique(ot$district))
+            ot
+        })
+
+        formatted_pcts <- c(
+            formatted_pcts,
+            unname(purrr::map(multi_little, format_pct, is_primary=is_primary)),
+            unname(purrr::map(multi_oth, format_pct, is_primary=is_primary))
+        )
+    }
 
     ## splits into precinct chunks of size 100
     pchunks <- split(formatted_pcts, ceiling(seq_along(formatted_pcts)/50))
