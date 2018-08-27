@@ -1,30 +1,30 @@
-#' @importFrom purrr flatten_int
+#' @importFrom purrr map_dfr map_int map_chr
 #' @importFrom tibble tibble
-flatten_cands <- function(cname, citems){
-    tibble::tibble("candidate" = cname,
-           party = citems[["party"]],
-           votetype = names(citems[["votes"]]),
-           votes = purrr::flatten_int(citems[["votes"]]))
+flatten_cands <- function(citem){
+    tibble::tibble(
+        candidate = citem[['name']],
+        party = citem[["party"]],
+        votetype = purrr::map_chr(citem[["votes"]], "votetype"),
+        votes = purrr::map_int(citem[["votes"]], "count")
+    )
 }
 
-#' @importFrom purrr pmap_dfr
-flatten_offices <- function(oname,
-                            oresults){
-    flat_cands <- purrr::pmap_dfr(list(cname = names(oresults),
-                                       citems = oresults),
-                                  flatten_cands)
+#' @importFrom purrr map_dfr
+flatten_offices <- function(oresults){
+    candl <- oresults[['candidates']]
+    flat_cands <- purrr::map_dfr(candl,
+                                 flatten_cands)
 
-    flat_cands[["office"]] <- oname
+    flat_cands[["office"]] <- oresults[['office']]
     flat_cands
 }
 
 
-#' @importFrom purrr pmap_dfr
+#' @importFrom purrr map_dfr
 flatten_record <- function(result){
-    resl <- result[["office"]]
+    resl <- result[["contests"]]
 
-    flat_votes <- purrr::pmap_dfr(list(oname = names(resl),
-                                       oresults = resl),
+    flat_votes <- purrr::map_dfr(resl,
                                   flatten_offices)
 
     for (i in c("cd", "county", "name", "state", "updatetime")){

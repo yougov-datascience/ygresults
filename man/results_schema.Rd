@@ -4,10 +4,12 @@
 \alias{results_schema}
 \title{Checks schema of a results dataframe. Good for creating scrapers}
 \usage{
-results_schema(df)
+results_schema(df, is_primary)
 }
 \arguments{
 \item{df}{a dataframe, in schema format.}
+
+\item{is_primary}{logical. is this a primary election?}
 }
 \description{
 Checks schema of a results dataframe. Good for creating scrapers
