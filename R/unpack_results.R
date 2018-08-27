@@ -1,4 +1,4 @@
-#' @importFrom purrr map_dfr map_int map_cht
+#' @importFrom purrr map_dfr map_int map_chr
 #' @importFrom tibble tibble
 flatten_cands <- function(citem){
     tibble::tibble(
