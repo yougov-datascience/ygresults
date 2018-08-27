@@ -3,29 +3,29 @@
     {
       "state": 99,
       "county": 999,
-      "name": "FAKE BAPTIST CHURCH",
       "cd": 99,
+      "name": "FAKE BAPTIST CHURCH",
       "contests": [
         {
           "office": "US House",
           "candidates": [
             {
-              "name": "Foo",
-              "party": "Rep",
+              "party": "Dem",
+              "name": "Bar",
               "votes": [
                 {
-                  "votetype": "All",
-                  "count": 1456
+                  "count": 2134,
+                  "votetype": "All"
                 }
               ]
             },
             {
-              "name": "Bar",
-              "party": "Dem",
+              "party": "Rep",
+              "name": "Foo",
               "votes": [
                 {
-                  "votetype": "All",
-                  "count": 2134
+                  "count": 1456,
+                  "votetype": "All"
                 }
               ]
             }
@@ -36,29 +36,29 @@
     {
       "state": 99,
       "county": 999,
-      "name": "FAKELAND",
       "cd": 99,
+      "name": "FAKELAND",
       "contests": [
         {
           "office": "US House",
           "candidates": [
             {
-              "name": "Foo",
-              "party": "Rep",
+              "party": "Dem",
+              "name": "Bar",
               "votes": [
                 {
-                  "votetype": "All",
-                  "count": 1010
+                  "count": 1234,
+                  "votetype": "All"
                 }
               ]
             },
             {
-              "name": "Bar",
-              "party": "Dem",
+              "party": "Rep",
+              "name": "Foo",
               "votes": [
                 {
-                  "votetype": "All",
-                  "count": 1234
+                  "count": 1010,
+                  "votetype": "All"
                 }
               ]
             }
