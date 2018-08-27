@@ -1,6 +1,6 @@
 context("test-results_upload.R")
 
-mockup <- '{"precincts":[{"state":99,"county":999,"cd":99,"name":"FAKE BAPTIST CHURCH","office":{"US House":{"Bar":{"party":"Dem","votes":{"All":2134}},"Foo":{"party":"Rep","votes":{"All":1456}}}}},{"state":99,"county":999,"cd":99,"name":"FAKELAND","office":{"US House":{"Bar":{"party":"Dem","votes":{"All":1234}},"Foo":{"party":"Rep","votes":{"All":1010}}}}}]}'
+mockup <- get_fixture("expected_requests/multi_post.json")
 
 tdf <- data.frame(
     state = 99,
@@ -14,6 +14,8 @@ tdf <- data.frame(
     votes = c(1010, 1234, 1456, 2134),
     stringsAsFactors = FALSE
 )
+
+
 
 test_that("creates a correctly formatted PUT request", {
     httptest::with_fake_http({

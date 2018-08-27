@@ -1,0 +1,70 @@
+{
+  "precincts": [
+    {
+      "state": 99,
+      "county": 999,
+      "name": "FAKE BAPTIST CHURCH",
+      "cd": 99,
+      "contests": [
+        {
+          "office": "US House",
+          "candidates": [
+            {
+              "name": "Foo",
+              "party": "Rep",
+              "votes": [
+                {
+                  "votetype": "All",
+                  "count": 1456
+                }
+              ]
+            },
+            {
+              "name": "Bar",
+              "party": "Dem",
+              "votes": [
+                {
+                  "votetype": "All",
+                  "count": 2134
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": 99,
+      "county": 999,
+      "name": "FAKELAND",
+      "cd": 99,
+      "contests": [
+        {
+          "office": "US House",
+          "candidates": [
+            {
+              "name": "Foo",
+              "party": "Rep",
+              "votes": [
+                {
+                  "votetype": "All",
+                  "count": 1010
+                }
+              ]
+            },
+            {
+              "name": "Bar",
+              "party": "Dem",
+              "votes": [
+                {
+                  "votetype": "All",
+                  "count": 1234
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
