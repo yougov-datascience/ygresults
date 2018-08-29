@@ -40,6 +40,7 @@ format_pct <- function(pct_df, is_primary=FALSE){
         if (i == "district"){
             on <- "cd"
             ov <- unique(na.omit(pct_df[[i]]))
+            if (length(ov) == 0) ov <- -1
         } else if (i == "precinct") {
             on <- "name"
             ov <- unique(pct_df[[i]])
