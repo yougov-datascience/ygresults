@@ -5,7 +5,13 @@ flatten_cands <- function(citem){
         candidate = citem[['name']],
         party = citem[["party"]],
         votetype = purrr::map_chr(citem[["votes"]], "votetype"),
-        votes = purrr::map_int(citem[["votes"]], "count")
+        votes = purrr::map_int(citem[["votes"]], function(v){
+            if (is.integer(v$count)){
+                return(v$count)
+            } else {
+                return(NA_integer_)
+            }
+        })
     )
 }
 
