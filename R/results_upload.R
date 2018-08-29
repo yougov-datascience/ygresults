@@ -29,7 +29,7 @@ results_upload <- function(df, election_code, is_primary=FALSE){
 
     formatted_pcts <- unname(purrr::map(pct_ls[!multi_district], format_pct, is_primary=is_primary))
 
-    if(sum(multi_district >= 1)){
+    if(sum(multi_district) >= 1){
         multi_little <- map(pct_ls[multi_district], function(d){
             d[d$district %in% min(d$district, na.rm = T) | is.na(d$district),]
         })
