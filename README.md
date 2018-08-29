@@ -21,7 +21,7 @@ options(results_api_key = <your api key>,
 ### Usage:
 
 ```
-df <- results_get("test_20180812", state = "04")
+df <- results_get("test_20180828", county = "04019")
 ```
 
 Returns a `?tibble::tibble`, in 'tidy' (read: long) format. 
