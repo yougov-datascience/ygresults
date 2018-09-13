@@ -50,7 +50,7 @@ results_schema <- function(df, is_primary){
     }
 
     ## office vector supported?
-    office_vals <- c("US Senate", "US House", "Governor", "Lieutenant Governor")
+    office_vals <- c("US Senate", "US House", "Governor", "Lieutenant Governor", "Attorney General")
     if (is_primary){
         office_vals <- purrr::flatten_chr(purrr::map(party_vals, ~paste0(office_vals, " - ", .x)))
     }
