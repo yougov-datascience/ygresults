@@ -42,12 +42,21 @@ flatten_record <- function(result){
 
 # changes results from JSON schema to df for the R types
 # also drops duplicates
-#' @importFrom purrr map_dfr map_chr
+#' @importFrom purrr map_dfr map_chr map
+#' @importFrom dplyr bind_rows
+#' @importFrom parallel mclapply detectCores
 unpack_results <- function(res_list){
     id_ls <- purrr::map_chr(res_list, "id")
 
     ## drops all dupes
     res_list <- res_list[!duplicated(id_ls)]
 
-    purrr::map_dfr(res_list, flatten_record)
+    if (getOption("parallel_unpacking", TRUE)){
+        flat_recs <- parallel::mclapply(res_list, flatten_record,
+                                        mc.cores = parallel::detectCores())
+    } else {
+        flat_recs <- purrr::map(res_list, flatten_record)
+    }
+
+    dplyr::bind_rows(flat_recs)
 }
