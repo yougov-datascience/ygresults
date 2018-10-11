@@ -50,6 +50,7 @@ results_upload <- function(df, election_code, is_primary=FALSE){
     ## splits into precinct chunks of size 100
     pchunks <- split(formatted_pcts, ceiling(seq_along(formatted_pcts)/50))
 
+
     purrr::map(pchunks, function(chk){
         httr::PUT(put_base,
                   httr::add_headers(`x-api-key` = api_key),
