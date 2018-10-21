@@ -12,11 +12,11 @@ lists will be uploaded as JSON, and files provided as paths will be uploaded as-
 
 \item{election_code}{Election code}
 
-\item{county_code}{County code. Typically 5-digit fips/}
+\item{county_code}{County code. Typically 5-digit fips}
 }
 \value{
 Nothing
 }
 \description{
-This uploads Raw data to S3, for uploading.
+This uploads Raw data to S3, for uploading. Data can then be accessed using \code{\link{raw_download}}
 }

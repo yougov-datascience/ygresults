@@ -1,11 +1,11 @@
 #' Raw data to s3
 #'
-#' This uploads Raw data to S3, for uploading.
+#' This uploads Raw data to S3, for uploading. Data can then be accessed using \code{\link{raw_download}}
 #'
 #' @param data a data.frame, list, or file path. Data.frames will be uploaded as csvs,
 #' lists will be uploaded as JSON, and files provided as paths will be uploaded as-is
 #' @param election_code Election code
-#' @param county_code County code. Typically 5-digit fips/
+#' @param county_code County code. Typically 5-digit fips
 #'
 #' @return Nothing
 #' @export
