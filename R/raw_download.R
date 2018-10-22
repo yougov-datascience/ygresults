@@ -27,7 +27,7 @@ raw_download <- function(election_code, county_code){
     res <- httr::GET(url = glue::glue(geturl),
                      httr::add_headers(`x-api-key` = api_key))
 
-    if(!res$status_code >= 400){
+    if(res$status_code >= 400){
         stop(paste0("HTTP Error ", res$status_code), call. = F)
     }
 
