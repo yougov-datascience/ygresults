@@ -7,7 +7,7 @@
 #' @param cd CD as either fips + district number ("0408") or postal code + district number ("AZ08")
 #'
 #' @importFrom glue glue
-#' @importFrom purrr pmap map flatten map_dfr
+#' @importFrom purrr pmap map flatten map_dfr map_lgl
 #' @importFrom stringr str_sub
 #' @importFrom crul HttpRequest HttpClient AsyncVaried
 #' @importFrom jsonlite fromJSON
@@ -32,28 +32,32 @@ results_get <- function(elec_code,
         stop("One of `state`, `county` or `cd` must be non-null")
     }
 
-    qlist <- list()
 
     if (!is.null(state)){
         if (!is.character(state)) stop("`state` must be a character vector", call. = F)
         if(any(nchar(state) != 2)) stop("`state` must be 2-character string, please zero-pad if needed",
                                         call. = F)
-        qlist['state'] <- postal_replace_fips(state)
+        state <- postal_replace_fips(state)
     }
 
     if (!is.null(county)){
         if (!is.character(county)) stop("`county` must be a character vector", call. = F)
         if(any(nchar(county) != 5)) stop("`county` must be 5-character string, please zero-pad if needed",
                                          call. = F)
-        qlist['county'] <- county
     }
 
     if (!is.null(cd)){
         if (!is.character(cd)) stop("`cd` must be a character vector", call. = F)
         if(any(nchar(cd) != 4)) stop("`cd` must be 4-character string, please zero-pad if needed",
                                      call. = F)
-        qlist['cd'] <- postal_replace_fips(cd)
+        cd <- postal_replace_fips(cd)
     }
+
+    qlist <- list(state = state,
+                  county = county,
+                  cd = cd)
+
+    qlist <- qlist[!purrr::map_lgl(qlist, is.null)]
 
     ## throws warning if duplicated state + cd or state+county calls exist
     if ('state' %in% names(qlist) & any(c('county', 'cd') %in% names(qlist))){
