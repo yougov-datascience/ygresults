@@ -18,6 +18,16 @@ options(results_api_key = <your api key>,
         results_api_url = <your api base url>)
 ```
 
+### Optional Parameters:
+All listed as their defaults
+
+```{r}
+options(parallel_unpacking = TRUE, # controls whether unpacking is completed in parallel (windows machines may have issues with this)
+        parallel_packing = TRUE, # controls whether packing for upload is done in parallel
+        parallel_download = TRUE # controls whether requests for multiple counties are executed simultaneously or serially
+        )
+```
+
 ### Usage:
 
 ```

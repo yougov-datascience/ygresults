@@ -19,7 +19,8 @@ Imports:
     purrr,
     stringr,
     tibble,
-    dplyr
+    dplyr,
+    crul
 Suggests: 
     httptest,
     covr
