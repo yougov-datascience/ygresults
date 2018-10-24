@@ -20,9 +20,7 @@ tdf <- data.frame(
 test_that("creates a correctly formatted PUT request", {
     httptest::with_fake_http({
         httptest::expect_PUT(
-            object = results_upload(tdf, election_code = "test_20180812"),
-            url = "fakeaws.cc/dev/results/test_20180812/write",
-            mockup
+            object = results_upload(tdf, election_code = "test_20180812", county_code="99999")
         )
     })
 })

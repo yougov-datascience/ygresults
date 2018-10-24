@@ -7,9 +7,11 @@
 #'
 #' @importFrom purrr map map_lgl
 #' @importFrom glue glue
-#' @importFrom httr PUT
+#' @importFrom httr PUT add_headers
+#' @importFrom parallel detectCores mclapply
+#' @importFrom uuid UUIDgenerate
 #' @export
-results_upload <- function(df, election_code, is_primary=FALSE){
+results_upload <- function(df, election_code, county_code, is_primary=FALSE){
     df <- results_schema(df, is_primary=is_primary)
     api_key <- getOption("results_api_key", NA)
     if (is.na(api_key)){
@@ -21,13 +23,19 @@ results_upload <- function(df, election_code, is_primary=FALSE){
         stop("API url not found. Please save it in options as `results_api_url`", call. = F)
     }
 
-    put_base <- paste0(api_base_url, election_code, "/write")
+    put_base <- "{api_base_url}{election_code}/clean/{county_code}/{uuid::UUIDgenerate()}.json"
 
     pct_ls <- split(df, paste0(df[['state']], df[['county']], df[['precinct']]))
 
     multi_district <- purrr::map_lgl(pct_ls, ~length(unique(na.omit(.x[['district']])))>1)
 
-    formatted_pcts <- unname(purrr::map(pct_ls[!multi_district], format_pct, is_primary=is_primary))
+    if (getOption("parallel_packing", TRUE)){
+        formatted_pcts <- unname(parallel::mclapply(pct_ls[!multi_district], format_pct,
+                                                    is_primary=is_primary,
+                                                    mc.cores = parallel::detectCores()))
+    } else {
+        formatted_pcts <- unname(purrr::map(pct_ls[!multi_district], format_pct, is_primary=is_primary))
+    }
 
     if(sum(multi_district) >= 1){
         multi_little <- map(pct_ls[multi_district], function(d){
@@ -47,13 +55,9 @@ results_upload <- function(df, election_code, is_primary=FALSE){
         )
     }
 
-    ## splits into precinct chunks of size 100
-    pchunks <- split(formatted_pcts, ceiling(seq_along(formatted_pcts)/50))
 
 
-    purrr::map(pchunks, function(chk){
-        httr::PUT(put_base,
-                  httr::add_headers(`x-api-key` = api_key),
-                  body = list("precincts" = chk), encode = "json")
-    })
+    httr::PUT(glue::glue(put_base),
+              httr::add_headers(`x-api-key` = api_key),
+              body = formatted_pcts, encode = "json")
 }
