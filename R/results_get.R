@@ -95,7 +95,8 @@ results_get <- function(elec_code,
 
         out <- crul::AsyncVaried$new(.list = reql)
         out$request()
-        resp_list <- purrr::map(out$parse(), jsonlite::fromJSON)
+        resp_list <- purrr::map(out$parse(), jsonlite::fromJSON,
+                                simplifyDataFrame = FALSE, simplifyMatrix = FALSE)
     } else {
         resp_list <- purrr::map(ql, function(rp){
             resp <- httr::GET(glue::glue("{api_base_url}{elec_code}/{rp$qtype}/{rp$qitem}"),
