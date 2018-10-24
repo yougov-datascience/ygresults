@@ -2,7 +2,8 @@
 #' Uploads results to API
 #' @param df data.frame with schema columns (see vignette for details)
 #'
-#' @param election_code string election code denominator
+#' @param election_code string election code
+#' @param county_code string county code (5-digit FIPS)
 #' @param is_primary deactivates party -- candidate checking for primaries
 #'
 #' @importFrom purrr map map_lgl

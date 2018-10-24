@@ -9,7 +9,9 @@ results_upload(df, election_code, county_code, is_primary = FALSE)
 \arguments{
 \item{df}{data.frame with schema columns (see vignette for details)}
 
-\item{election_code}{string election code denominator}
+\item{election_code}{string election code}
+
+\item{county_code}{string county code (5-digit FIPS)}
 
 \item{is_primary}{deactivates party -- candidate checking for primaries}
 }

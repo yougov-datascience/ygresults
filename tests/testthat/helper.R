@@ -1,6 +1,7 @@
 options(results_api_key = "122345",
         results_api_url = "fakeaws.cc/dev/results/",
-        parallel_unpacking = FALSE)
+        parallel_unpacking = FALSE,
+        parallel_packing = FALSE)
 
 
 # reads in json fixture in format expected by httptest
