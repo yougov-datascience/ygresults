@@ -3,10 +3,10 @@
 language: R
 os:
   - linux
-  - osx
 r:
   - oldrel
   - release
+  - 3.3
 sudo: false
 cache: packages
 
