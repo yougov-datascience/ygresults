@@ -31,5 +31,25 @@ raw_download <- function(election_code, county_code){
         stop(paste0("HTTP Error ", res$status_code), call. = F)
     }
 
-    httr::content(res)
+    out <- httr::content(res)
+
+    if (inherits(out, 'raw')){
+        tf <- tempfile()
+        writeBin(out, tf)
+        rc <- readLines(tf)
+        out <- try({
+            readr::read_csv(rc)
+        })
+        if (inherits(out, "try-error")){
+            out <- try({
+                jsonlite::fromJSON(rc)
+            })
+            if (inherits(out, "try-error")){
+                warning("could not auto-decompress raw file. You must decompress in your own code",
+                        call. = F)
+                out <- rc
+            }
+        }
+    }
+    out
 }

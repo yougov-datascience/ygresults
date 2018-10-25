@@ -41,6 +41,19 @@ schema_check <- function(df, is_primary){
                     "' found in `df$party`. Please change to fit schema."), call. = F)
     }
 
+    ## votetype values
+    votetype_vals <- c("Early", "All", "Election", "Provisional")
+    vtf <- !unique(df$votetype) %in% votetype_vals
+    if(any(prs)){
+        stop(paste0("Non-schema values '",
+                    paste(unique(df$votetype)[vtf], collapse = "', '"),
+                    "' found in `df$party`. Please change to fit schema."), call. = F)
+    }
+    if (!(any(c("Election", "All") %in% unique(df$votetype)))){
+        stop("Critical votetype entries missing. You must provide one of `Election` or `All`",
+             call. = F)
+    }
+
     ## office vector supported?
     office_vals <- c("US Senate", "US House", "Governor", "Lieutenant Governor", "Attorney General")
     if (is_primary){
