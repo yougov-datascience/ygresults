@@ -11,7 +11,7 @@
 #' @importFrom stringr str_detect str_sub
 #' @importFrom purrr map flatten_chr
 results_schema <- function(df, county_code, is_primary = FALSE){
-    if (nchar(county_code != 5)) stop("county-code must be a 5-digit fips. please zero-pad if necessary",
+    if (nchar(county_code) != 5) stop("county-code must be a 5-digit fips. please zero-pad if necessary",
                                       call. = F)
 
     df$state <- as.integer(str_sub(county_code, end=2))
