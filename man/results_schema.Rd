@@ -4,10 +4,12 @@
 \alias{results_schema}
 \title{Checks schema of a results dataframe. Good for creating scrapers}
 \usage{
-results_schema(df, is_primary = FALSE)
+results_schema(df, county_code, is_primary = FALSE)
 }
 \arguments{
 \item{df}{a dataframe, in schema format.}
+
+\item{county_code}{character. 5-digit county FIPS}
 
 \item{is_primary}{logical. is this a primary election?}
 }

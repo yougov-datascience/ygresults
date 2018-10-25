@@ -13,7 +13,9 @@
 #' @importFrom uuid UUIDgenerate
 #' @export
 results_upload <- function(df, election_code, county_code, is_primary=FALSE){
-    df <- results_schema(df, is_primary=is_primary)
+
+
+    df <- results_schema(df, county_code = county_code, is_primary=is_primary)
     api_key <- getOption("results_api_key", NA)
     if (is.na(api_key)){
         stop("API key not found. Please save it in options as `results_api_key`", call. = F)
