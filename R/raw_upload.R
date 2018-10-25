@@ -18,7 +18,7 @@
 #' @importFrom httr PUT add_headers upload_file content
 raw_upload <- function(data, election_code, county_code){
     if (inherits(data, "data.frame")) {
-        tf <- tempfile(fileext = ".csv.gz")
+        tf <- tempfile(fileext = ".csv")
         readr::write_csv(data, tf)
     } else if (inherits(data, "list")){
         tf <- tempfile(fileext = ".json")
