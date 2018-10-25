@@ -11,17 +11,20 @@
 #' @export
 #'
 #' @importFrom readr write_csv
-#' @importFrom jsonlite write_json
+#' @importFrom jsonlite write_json toJSON
 #' @importFrom uuid UUIDgenerate
 #' @importFrom tools file_ext
 #' @importFrom glue glue
 #' @importFrom httr PUT add_headers upload_file content
 raw_upload <- function(data, election_code, county_code){
     if (inherits(data, "data.frame")) {
-        tf <- tempfile(fileext = ".csv")
+        tf <- tempfile(fileext = ".csv.gz")
         readr::write_csv(data, tf)
     } else if (inherits(data, "list")){
         tf <- tempfile(fileext = ".json")
+        # gzf <- gzfile(tf, "w")
+        # writeLines(jsonlite::toJSON(data, auto_unbox = TRUE), gzf)
+        # close(gzf)
         jsonlite::write_json(data, tf, auto_unbox=TRUE)
     } else if (inherits(data, "character") & length(data == 1)) {
         if (file.exists(data)) {
@@ -44,6 +47,11 @@ raw_upload <- function(data, election_code, county_code){
     }
 
     puturl <- "{api_base_url}{election_code}/raw/{county_code}/{uuid::UUIDgenerate()}.{tools::file_ext(tf)}"
+
+    if (file.info(tf)$size >= 10485760){
+        stop("file specified in data exceeds maximum file size. Please compress/subset to under 10485760 bytes",
+             call. = F)
+    }
 
     fd <- httr::upload_file(tf)
     res <- httr::PUT(url = glue::glue(puturl),
