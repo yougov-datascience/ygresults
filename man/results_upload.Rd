@@ -7,7 +7,16 @@
 results_upload(df, election_code, county_code, is_primary = FALSE)
 }
 \arguments{
-\item{df}{data.frame with schema columns (see vignette for details)}
+\item{df}{data.frame with schema columns:
+\enumerate{
+    \item precinct -- character. L2 precinct name. Use \code{\link{schema_precincts}} to see valid values
+    \item office -- character. One of "US Senate", "US House", "Governor", "Lieutenant Governor"
+    \item district -- integer. Congressional district.
+    \item candidate -- character. Last name only, unless a disambiguating first initial needed.
+    \item party -- 3 character party abbreviation: (Rep, Dem, Grn, Lib, Ind, Oth)
+    \item votetype -- character. One of "All" (for counties that do not differentiate) "Early", "Election", "Provisional
+    \item votes -- integer
+}}
 
 \item{election_code}{string election code}
 

@@ -1,6 +1,15 @@
 
 #' Uploads results to API
-#' @param df data.frame with schema columns (see vignette for details)
+#' @param df data.frame with schema columns:
+#' \enumerate{
+#'     \item precinct -- character. L2 precinct name. Use \code{\link{schema_precincts}} to see valid values
+#'     \item office -- character. One of "US Senate", "US House", "Governor", "Lieutenant Governor"
+#'     \item district -- integer. Congressional district.
+#'     \item candidate -- character. Last name only, unless a disambiguating first initial needed.
+#'     \item party -- 3 character party abbreviation: (Rep, Dem, Grn, Lib, Ind, Oth)
+#'     \item votetype -- character. One of "All" (for counties that do not differentiate) "Early", "Election", "Provisional
+#'     \item votes -- integer
+#' }
 #'
 #' @param election_code string election code
 #' @param county_code string county code (5-digit FIPS)
@@ -13,7 +22,9 @@
 #' @importFrom uuid UUIDgenerate
 #' @export
 results_upload <- function(df, election_code, county_code, is_primary=FALSE){
-    df <- results_schema(df, is_primary=is_primary)
+
+
+    df <- results_schema(df, county_code = county_code, is_primary=is_primary)
     api_key <- getOption("results_api_key", NA)
     if (is.na(api_key)){
         stop("API key not found. Please save it in options as `results_api_key`", call. = F)
