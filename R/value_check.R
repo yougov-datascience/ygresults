@@ -41,17 +41,13 @@ candidate_check <- function(df, ctycode){
 
 
 #' @importFrom purrr flatten_chr
-value_check <- function(df){
-
-    ctycode <- paste0(
-        left_pad(unique(df$state), 2), left_pad(unique(df$county), 3)
-    )
+value_check <- function(df, ctycode){
 
     ## checks precincts
-    precinct_check(df)
+    precinct_check(df, ctycode)
 
     ## checks cands
-    candidate_check(df)
+    candidate_check(df, ctycode)
 
     invisible(NULL)
 }

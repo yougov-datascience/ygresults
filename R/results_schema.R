@@ -20,7 +20,7 @@ results_schema <- function(df, county_code, is_primary = FALSE){
     df <- schema_check(df, is_primary = is_primary)
 
     if(getOption("value_check", default = TRUE)){
-        value_check(df)
+        value_check(df, ctycode = county_code)
     }
 
     df
