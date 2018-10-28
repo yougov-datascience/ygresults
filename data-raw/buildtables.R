@@ -22,4 +22,4 @@ candidate_values <- read_json("../precinct_data_api/precinct_data_api/precinct_i
         })
     })
 
-devtools::use_data(precinct_values, candidate_values, internal=TRUE)
+devtools::use_data(precinct_values, candidate_values, internal=TRUE, overwrite = TRUE)
