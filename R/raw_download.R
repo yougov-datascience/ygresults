@@ -11,6 +11,7 @@
 #' @export
 #' @importFrom glue glue
 #' @importFrom httr GET add_headers content
+#' @importFrom readr read_csv cols
 raw_download <- function(election_code, county_code){
     api_key <- getOption("results_api_key", NA)
     if (is.na(api_key)){
@@ -38,7 +39,7 @@ raw_download <- function(election_code, county_code){
         writeBin(out, tf)
         rc <- paste(readLines(tf), collapse = "\n")
         out <- try({
-            readr::read_csv(rc)
+            readr::read_csv(rc, col_types = readr::cols(.default = 'c'))
         })
         if (inherits(out, "try-error")){
             out <- try({
