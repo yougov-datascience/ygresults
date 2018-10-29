@@ -19,8 +19,8 @@ candidate_check <- function(df, ctycode){
         if(n == "US House"){
             office_ls <- split(office_df, office_df[["district"]])
             purrr::walk2(office_ls, names(office_ls), function(house_df, d){
-                dist_candidates <- office_candidates[[d]]
-                bad_cands <- unique(house_df$candidate)[!unique(house_df$candidate %in% dist_candidates)]
+                dist_candidates <- c(office_candidates[[d]], "Write-in")
+                bad_cands <- unique(house_df$candidate)[!unique(house_df$candidate) %in% dist_candidates]
                 if (length(bad_cands > 0)){
                     warning(paste(paste(bad_cands, collapse = ", "),
                                   "are not valid candidate names for",
@@ -28,7 +28,8 @@ candidate_check <- function(df, ctycode){
                 }
             })
         } else {
-            bad_cands <- unique(office_df$candidate)[!unique(office_df$candidate %in% office_candidates)]
+            office_candidates <- c(office_candidates, "Write-in")
+            bad_cands <- unique(office_df$candidate)[!unique(office_df$candidate) %in% office_candidates]
             if (length(bad_cands > 0)){
                 warning(paste(paste(bad_cands, collapse = ", "),
                               "are not valid candidate names for",

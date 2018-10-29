@@ -75,3 +75,22 @@ test_that("yes warning on bad cands", {
     })
 })
 
+
+wi_cand <- data.frame(
+    candidate = c("Cottrell", "Webster", "Gillum", "Write-in"),
+    precinct = "743",
+    votetype = "All",
+    votes = sample(1:100, 2),
+    office = c("US House", "US House", "Governor", "US Senate"),
+    state = 12,
+    county = 86,
+    district = 11,
+    stringsAsFactors = FALSE
+)
+
+test_that("no warning on writein cands", {
+    expect_null({
+        candidate_check(wi_cand, "12086")
+    })
+})
+
