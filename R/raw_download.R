@@ -36,7 +36,7 @@ raw_download <- function(election_code, county_code){
     if (inherits(out, 'raw')){
         tf <- tempfile()
         writeBin(out, tf)
-        rc <- readLines(tf)
+        rc <- paste(readLines(tf), collapse = "\n")
         out <- try({
             readr::read_csv(rc)
         })
