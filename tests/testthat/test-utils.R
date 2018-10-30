@@ -10,6 +10,11 @@ test_that("names are correctly capitalized", {
     expect_equal(capitalize_names("murcasel-powell"), "Murcasel-Powell")
 })
 
+test_that("Mc names get te right treatment", {
+    expect_equal(capitalize_names("mcsweeny"), "McSweeny")
+    expect_equal(capitalize_names("MCLOVIN"), "McLovin")
+})
+
 
 test_that("schema precinct names return", {
     expect_true("0008 AHWATUKEE" %in% schema_precincts("04013"))
