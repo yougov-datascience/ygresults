@@ -19,3 +19,8 @@ test_that("Mc names get te right treatment", {
 test_that("schema precinct names return", {
     expect_true("0008 AHWATUKEE" %in% schema_precincts("04013"))
 })
+
+test_that("Mc names in vectors dont break things?", {
+    expect_equal(capitalize_names(c("MCLOVIN", "mcsweeny", "zussman", "yooo")),
+                 c("McLovin", "McSweeny", "Zussman", "Yooo"))
+})
