@@ -94,3 +94,22 @@ test_that("no warning on writein cands", {
     })
 })
 
+
+az_cand <- data.frame(
+    candidate = c("Garcia", "Ducey", "McSally", "Write-in"),
+    precinct = "743",
+    votetype = "All",
+    votes = sample(1:100, 2),
+    office = c("Governor", "Governor", "US Senate", "US Senate"),
+    state = 04,
+    county = 13,
+    district = 11,
+    stringsAsFactors = FALSE
+)
+
+test_that("az works as expected", {
+    expect_null({
+        candidate_check(az_cand, "04013")
+    })
+})
+
