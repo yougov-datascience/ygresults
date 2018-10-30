@@ -1,7 +1,7 @@
 Package: ygresults
 Type: Package
 Title: Convenience functions to access precinct results in a REST API.
-Version: 0.1.0
+Version: 0.2.0
 Author: Nick Pelikan
 Maintainer: Nick Pelikan <nick.pelikan@yougov.com>
 Description: 
@@ -19,7 +19,7 @@ Imports:
     glue,
     httr,
     purrr,
-    stringr,
+    stringr (>= 1.3.0),
     tibble,
     dplyr,
     crul
