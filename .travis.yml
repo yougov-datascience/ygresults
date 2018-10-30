@@ -3,6 +3,7 @@
 language: R
 os:
   - linux
+  - osx
 r:
   - oldrel
   - release
