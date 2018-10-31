@@ -14,7 +14,7 @@ left_pad <- function(x, n, pad='0'){
 #' @export
 capitalize_names <- function(x) {
     stringr::str_replace(tools::toTitleCase(tolower(x)),
-                "\\b(Mc|O'|Mac|De)[a-z]{1}", ## detects secondary caps needed
+                "\\b(Mc|O'|Mac|De(?!a|e|i|o|u))[a-z]{1}", ## detects secondary caps needed
                 function(st){ ## capitalizes the next char
                     paste0(stringr::str_sub(st, end = nchar(st)-1),
                            toupper(stringr::str_sub(st, start=nchar(st))))

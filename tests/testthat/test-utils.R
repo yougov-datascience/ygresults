@@ -24,3 +24,7 @@ test_that("Mc names in vectors dont break things?", {
     expect_equal(capitalize_names(c("MCLOVIN", "mcsweeny", "zussman", "yooo")),
                  c("McLovin", "McSweeny", "Zussman", "Yooo"))
 })
+
+test_that("Dean doesn't get badly capitalized", {
+    expect_equal(capitalize_names("dean"), "Dean")
+})
