@@ -1,7 +1,7 @@
 options(results_api_key = "122345",
         results_api_url = "fakeaws.cc/dev/results/",
-        # parallel_unpacking = FALSE,
-        # parallel_packing = FALSE,
+        parallel_unpacking = FALSE,
+        parallel_packing = FALSE,
         parallel_download = FALSE,
         value_check = FALSE)
 
