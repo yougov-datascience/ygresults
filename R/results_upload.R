@@ -56,7 +56,7 @@ results_upload <- function(df, election_code, county_code, is_primary=FALSE){
 
         multi_oth <- map(pct_ls[multi_district], function(d){
             ot <- d[d$district %in% min(d$district, na.rm = T),]
-            ot$precinct <- paste0(ot$precinct, " District ", unique(ot$district))
+            # ot$precinct <- paste0(ot$precinct, " District ", unique(ot$district))
             ot
         })
 
